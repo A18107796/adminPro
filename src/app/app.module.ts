@@ -8,11 +8,11 @@ import { APP_ROUTES } from './app.routes';
 
 /* Modulos */
 import { PagesModule } from './pages/pages.module';
+import { FormsModule } from '@angular/forms';
 
 /* Components */
 import { LoginComponent } from './login/login.component';
 import { RegistersComponent } from './login/registers.component';
-
 
 @NgModule({
   declarations: [
@@ -23,7 +23,8 @@ import { RegistersComponent } from './login/registers.component';
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
