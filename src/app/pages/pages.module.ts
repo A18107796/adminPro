@@ -11,6 +11,7 @@ import { ChartsModule } from 'ng2-charts';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 // Temporal //
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
@@ -28,6 +29,7 @@ import { RosquillaComponent } from '../components/rosquilla/rosquilla.component'
     Graficas1Component,
     RosquillaComponent,
     PagesComponent,
+    AccountSettingsComponent,
 
   ],
   imports: [
