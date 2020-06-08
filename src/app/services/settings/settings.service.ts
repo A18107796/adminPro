@@ -1,9 +1,7 @@
 import { Injectable, Inject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class SettingsService {
 
   ajustes: Ajustes = {
@@ -17,17 +15,17 @@ export class SettingsService {
   }
 
   guardarAjustes() {
-    console.log('Guardado en el Local Storage');
+
     localStorage.setItem('ajustes', JSON.stringify(this.ajustes));
   }
 
   cargarAjustes() {
     if (localStorage.getItem('ajustes')) {
       this.ajustes = JSON.parse(localStorage.getItem('ajustes'));
-      console.log('Cargando de Ajustes', this.ajustes.tema);
+
       this.aplicarTema(this.ajustes.tema);
     } else {
-      console.log('Usando valores por defecto');
+
       this.aplicarTema(this.ajustes.tema);
     }
   }
