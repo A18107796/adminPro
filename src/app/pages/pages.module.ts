@@ -19,6 +19,8 @@ import { CommonModule } from '@angular/common';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { RosquillaComponent } from '../components/rosquilla/rosquilla.component';
 import { RouterModule } from '@angular/router';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -31,6 +33,8 @@ import { RouterModule } from '@angular/router';
     RosquillaComponent,
     PagesComponent,
     AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent,
 
   ],
   imports: [
