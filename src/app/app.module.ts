@@ -8,7 +8,7 @@ import { APP_ROUTES } from './app.routes';
 
 /* Modulos */
 import { PagesModule } from './pages/pages.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 /* Components */
 import { LoginComponent } from './login/login.component';
@@ -32,7 +32,8 @@ import { RouterModule } from '@angular/router';
     PagesModule,
     FormsModule,
     RouterModule,
-    ServiceModule
+    ServiceModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
