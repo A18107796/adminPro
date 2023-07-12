@@ -22,7 +22,7 @@
     "chart.js": "^2.9.3",
     "install": "^0.13.0",
     "ng2-charts": "^2.3.2",
-    "npm": "^6.14.6",
+    "npm": "^9.8.0",
     "rxjs": "~6.5.4",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^9.15.2",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.901.7",
-    "@angular/cli": "~9.1.7",
+    "@angular/cli": "~16.1.4",
     "@angular/compiler-cli": "~9.1.9",
     "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
